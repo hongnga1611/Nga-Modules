@@ -1,0 +1,35 @@
+$color_text: #6f6f6f;
+$background-color: #61ce70;
+%re-content {
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                display: -webkit-box;
+            }
+.type-1737 {
+    .top-header{
+        padding: 50px;
+    }
+    .title{
+        @extend %re-content;
+        font-weight: bold;
+
+    }
+    .solid {
+        width: 15%;
+        height: 2px;
+        background-color: $background-color;
+    }
+    .font-icon {
+        font-size: 40px;
+        color: white;
+        background-color: $background-color;
+        border-radius: 80%;
+    }
+    .box-content {
+        @extend %re-content;
+        .infor-content {
+            color: $color_text;
+        }
+    }
+}

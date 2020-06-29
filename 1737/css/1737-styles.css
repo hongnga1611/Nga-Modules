@@ -1,0 +1,21 @@
+.type-1737 .title, .type-1737 .box-content {
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box; }
+
+.type-1737 .top-header {
+  padding: 50px; }
+.type-1737 .title {
+  font-weight: bold; }
+.type-1737 .solid {
+  width: 15%;
+  height: 2px;
+  background-color: #61ce70; }
+.type-1737 .font-icon {
+  font-size: 40px;
+  color: white;
+  background-color: #61ce70;
+  border-radius: 80%; }
+  .type-1737 .box-content .infor-content {
+    color: #6f6f6f; }
